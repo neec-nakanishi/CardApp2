@@ -6,6 +6,7 @@ public class Game {
         p = new Player();
         cards = new Card[52];
         // Powershellで以下を実行
+        // chcp 65001
         // [Console]::OutputEncoding = [System.Text.Encoding]::GetEncoding('utf-8')
         String[] marks={"♠️", "♥️", "♦️", "♣️"};
         for (int i=0; i<4 ; i++) {
